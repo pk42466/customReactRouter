@@ -1,0 +1,21 @@
+.header-navbar {
+    padding: 0;
+    margin: 0 -15px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+}
+.header-navbar li {
+    display: inline-block;
+}
+.header-navbar li a {
+    padding: 10px 15px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.header-navbar li a:hover {
+    background-color: #eee;
+}
+.header-navbar li a:focus {
+    outline: none;
+}
